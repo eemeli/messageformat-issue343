@@ -22,6 +22,6 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
-    - run: npm install
+    - run: npm ci
     - run: npm run build:messages
     - run: git diff
